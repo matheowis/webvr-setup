@@ -1,0 +1,31 @@
+{
+  "name": "webvr-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheowis/webvr-setup.git"
+  },
+  "author": "matheowis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheowis/webvr-setup/issues"
+  },
+  "homepage": "https://github.com/matheowis/webvr-setup#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "raw-loader": "^1.0.0",
+    "three": "^0.100.0",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
